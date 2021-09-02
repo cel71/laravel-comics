@@ -1,0 +1,33 @@
+.icons {
+    background-color: rgb(2, 130, 249);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon {
+            display: flex;
+            align-items: center;
+            color: white;
+            padding: 30px;
+            font-size: 12px;
+
+            img {
+                padding-right: 15px;
+                width: 40px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            div {
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.sfondo {
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 30px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 25px 0;
+
+        button {
+            padding: 15px;
+            border: 2px solid rgb(2, 130, 249);
+            background-color: rgb(48, 48, 48);
+            color: white;
+            font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            align-items: center;
+
+            div {
+                color:rgb(2, 130, 249);
+                font-weight: bold;
+                padding-right: 15px;
+            }
+
+            img {
+                padding: 0 10px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -14,9 +14,14 @@
     <div class="container">
         @yield('box centrale')
     </div>
+    <div class="icons">
+        @include('templates.icons')
+    </div>
+    <div class="linkbar">
+        @include('templates.linkbar')
+    </div>
     <footer>
         @include('templates.footer')
     </footer>
-    
 </body>
 </html>
