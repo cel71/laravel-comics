@@ -1,6 +1,5 @@
 .linkbar {
     background-image: url("/images/footer-bg.jpg");
-    height: 320px;
 
     .container {
         display: flex;
@@ -21,13 +20,13 @@
                 padding-bottom: 2px;
 
                 &:first-child {
-                    font-size: 15px;
+                    font-size: 14px;
                     font-weight: bold;
                     padding-bottom: 20px;
                 }
 
                 a {
-                    font-size: 15px;
+                    font-size: 12px;
                     text-decoration: none;
                     color: rgb(149, 149, 149);
                     cursor: pointer;
@@ -36,13 +35,13 @@
         }
 
         .linkbar-img {
-            height: 320px;
+            height: 340px;
             overflow: hidden;
             display: flex;
             align-items: center;
             
             img {
-                width: 500px;
+                width: 550px;
             }   
         }
     }

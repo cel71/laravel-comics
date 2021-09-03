@@ -3,9 +3,7 @@
 
 @section('box centrale')
     <div class="sfondo-home">
-        <div class="jumbotron">
-            <img class="jumbotron-img" src="/images/jumbotron.jpg" alt="jumbotron">
-        </div>
+        <img class="jumbotron" src="/images/jumbotron.jpg" alt="jumbotron">
         <div class="special"><p>CURRENT SERIES</p></div>
         <div class="container-fluid">
             <div class="container">

@@ -10949,36 +10949,23 @@ a.text-dark:focus {
 
 .sfondo-home .jumbotron {
   width: 100%;
-  height: 300px;
-  overflow: hidden;
+  height: 400px;
 }
 
-.sfondo-home .jumbotron .jumbotron-img {
+.sfondo-home .comics-card {
+  margin: 15px 10px;
+}
+
+.sfondo-home .comics-card img {
   width: 100%;
 }
 
-.sfondo-home .container-fluid .container .row .col-2 .comic-card,
-.sfondo-home .container-sm .container .row .col-2 .comic-card,
-.sfondo-home .container-md .container .row .col-2 .comic-card,
-.sfondo-home .container-lg .container .row .col-2 .comic-card,
-.sfondo-home .container-xl .container .row .col-2 .comic-card {
-  margin: 20px 10px;
-}
-
-.sfondo-home .container-fluid .container .row .col-2 .comic-card img,
-.sfondo-home .container-sm .container .row .col-2 .comic-card img,
-.sfondo-home .container-md .container .row .col-2 .comic-card img,
-.sfondo-home .container-lg .container .row .col-2 .comic-card img,
-.sfondo-home .container-xl .container .row .col-2 .comic-card img {
-  width: 100%;
-}
-
-.sfondo-home .container-fluid .container .row .col-2 .comic-card h4,
-.sfondo-home .container-sm .container .row .col-2 .comic-card h4,
-.sfondo-home .container-md .container .row .col-2 .comic-card h4,
-.sfondo-home .container-lg .container .row .col-2 .comic-card h4,
-.sfondo-home .container-xl .container .row .col-2 .comic-card h4 {
-  color: red;
+.sfondo-home .comics-card h4 {
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  padding-top: 10px;
+  text-decoration: none;
 }
 
 .sfondo-home .special {
@@ -11008,20 +10995,12 @@ a.text-dark:focus {
 }
 
 .sfondo-comics .jumbotron {
-  width: 100%;
   height: 300px;
   overflow: hidden;
 }
 
 .sfondo-comics .jumbotron img {
   width: 100%;
-}
-
-.sfondo-comics .container {
-  padding-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
 }
 
 .sfondo-comics .special2 {
@@ -11051,7 +11030,6 @@ a.text-dark:focus {
 }
 
 .sfondo-movies .jumbotron {
-  width: 100%;
   height: 300px;
   overflow: hidden;
 }
@@ -11174,7 +11152,6 @@ a.text-dark:focus {
 
 .linkbar {
   background-image: url("/images/footer-bg.jpg");
-  height: 320px;
 }
 
 .linkbar .container {
@@ -11199,27 +11176,27 @@ a.text-dark:focus {
 }
 
 .linkbar .container ul li:first-child {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
 .linkbar .container ul li a {
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
   color: #959595;
   cursor: pointer;
 }
 
 .linkbar .container .linkbar-img {
-  height: 320px;
+  height: 340px;
   overflow: hidden;
   display: flex;
   align-items: center;
 }
 
 .linkbar .container .linkbar-img img {
-  width: 500px;
+  width: 550px;
 }
 
 .icons {
