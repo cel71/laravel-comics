@@ -8,7 +8,7 @@
         </div>
         <div class="special2">CURRENT SERIES</div>
         <div class="container">
-            LISTA FUMETTI
+            @dump($comics[$id])
         </div>
         <button>LOAD MORE</button>
     </div>

@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body>
-    <header>
-        @include('templates.header')
-    </header>
-    <div class="container">
-        @yield('box centrale')
+    <div class="container-fluid">
+        <header>
+            @include('templates.header')
+        </header>
+        <main>
+            @yield('box centrale')
+        </main>
+        <div class="icons">
+            @include('templates.icons')
+        </div>
+        <div class="linkbar">
+            @include('templates.linkbar')
+        </div>
+        <footer>
+            @include('templates.footer')
+        </footer>
     </div>
-    <div class="icons">
-        @include('templates.icons')
-    </div>
-    <div class="linkbar">
-        @include('templates.linkbar')
-    </div>
-    <footer>
-        @include('templates.footer')
-    </footer>
 </body>
 </html>

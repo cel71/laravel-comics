@@ -26,6 +26,13 @@
                 cursor: pointer;
                 font-size: 14px;
 
+                &.active {
+                    
+                    a {
+                        color:rgb(2, 130, 249);
+                    }
+                }
+
                 a {
                     color: black;
                     text-decoration: none;
