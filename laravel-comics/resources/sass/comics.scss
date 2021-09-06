@@ -1,38 +1,65 @@
 .sfondo-comics {
-    background-color: black;
-    color: white;
-    
+    background-color: white;
+
     .jumbotron {
-        height: 300px;
+        padding: 0;
+        height: 340px;
         overflow: hidden;
+        margin-bottom: -10px;
 
         img {
             width: 100%;
-        }    
-    }
-    
-    .container {
-
+        }
     }
 
-    .special2 {
-        width: 160px;
-        height: 50px;
-        margin: 20px;
-        background-color: rgb(2, 130, 249);
-        color: white;
-        font-weight: bold;
-        text-align: center;
-        line-height: 50px;
+    .line-blue {
+        height: 70px;
+        background-color: rgb(4, 121, 230);
+        img{
+            margin-left: 300px;
+            margin-top: -240px;
+        }
+    }
+}
+
+.box-comics {
+
+    margin-top: 40px;
+
+    .price-bar {
+        background-color: rgb(85, 186, 89);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 600px;
+        padding: 10px;
+
+        .price {
+            display: flex;
+            align-items: center;
+        }
     }
 
-    button {
-        margin: 20px;
-        background-color: rgb(2, 130, 249);
-        color: white;
-        font-weight: bold;
-        border: none;
-        padding: 6px 35px;
-        text-align: center;
+    p {
+        width: 600px;
+    }
+
+    .text {
+        margin: 50px 0;
+
+        .art-by, .written-by {
+            display: flex;
+            font-size: 10px;
+        }
+
+        .artist-writer {
+            color: rgb(4, 121, 230);
+            padding-right: 10px;
+        }
+
+        .art-by-title {
+            padding-right: 15px;
+        }
     }
 }

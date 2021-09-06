@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
         <header>
             @include('templates.header')
         </header>

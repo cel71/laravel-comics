@@ -10945,11 +10945,17 @@ a.text-dark:focus {
 .sfondo-home {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .sfondo-home .jumbotron {
+  padding: 0;
+  height: 340px;
+  overflow: hidden;
+}
+
+.sfondo-home .jumbotron img {
   width: 100%;
-  height: 400px;
 }
 
 .sfondo-home .comics-card {
@@ -10977,10 +10983,11 @@ a.text-dark:focus {
   font-weight: bold;
   text-align: center;
   line-height: 50px;
+  margin-left: 140px;
 }
 
 .sfondo-home button {
-  margin: 20px;
+  margin: 40px;
   background-color: #0282f9;
   color: white;
   font-weight: bold;
@@ -10990,38 +10997,70 @@ a.text-dark:focus {
 }
 
 .sfondo-comics {
-  background-color: black;
-  color: white;
+  background-color: white;
 }
 
 .sfondo-comics .jumbotron {
-  height: 300px;
+  padding: 0;
+  height: 340px;
   overflow: hidden;
+  margin-bottom: -10px;
 }
 
 .sfondo-comics .jumbotron img {
   width: 100%;
 }
 
-.sfondo-comics .special2 {
-  width: 160px;
-  height: 50px;
-  margin: 20px;
-  background-color: #0282f9;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  line-height: 50px;
+.sfondo-comics .line-blue {
+  height: 70px;
+  background-color: #0479e6;
 }
 
-.sfondo-comics button {
-  margin: 20px;
-  background-color: #0282f9;
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 6px 35px;
-  text-align: center;
+.sfondo-comics .line-blue img {
+  margin-left: 300px;
+  margin-top: -240px;
+}
+
+.box-comics {
+  margin-top: 40px;
+}
+
+.box-comics .price-bar {
+  background-color: #55ba59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 600px;
+  padding: 10px;
+}
+
+.box-comics .price-bar .price {
+  display: flex;
+  align-items: center;
+}
+
+.box-comics p {
+  width: 600px;
+}
+
+.box-comics .text {
+  margin: 50px 0;
+}
+
+.box-comics .text .art-by,
+.box-comics .text .written-by {
+  display: flex;
+  font-size: 10px;
+}
+
+.box-comics .text .artist-writer {
+  color: #0479e6;
+  padding-right: 10px;
+}
+
+.box-comics .text .art-by-title {
+  padding-right: 15px;
 }
 
 .sfondo-movies {

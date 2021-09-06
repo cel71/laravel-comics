@@ -5,7 +5,7 @@
     <nav>
         <ul>
             <li class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}"><a href="{{ route('homepage') }}">CHARACTERS</a></li>
-            <li><a href="">COMICS</a></li>
+            <li><a href="{{ route('comicspage', ['id']) }}">COMICS</a></li>
             <li><a href="{{ route('moviespage') }}">MOVIES</a></li>
             <li><a href="#">TV</a></li>
             <li><a href="#">GAMES</a></li>
